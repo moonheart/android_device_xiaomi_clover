@@ -67,4 +67,4 @@ persist.camera.stats.test=5
 ro.vendor.build.security_patch=2018-10-01
 
 # Maintainer
-ro.mk.maintainer=guaiyihu
+# ro.mk.maintainer=guaiyihu

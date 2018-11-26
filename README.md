@@ -1,4 +1,4 @@
-Copyright 2018 - The Mokee Project
+Copyright 2018 - The LineageOS Project
 
 The MI PAD 4 (codenamed _"clover"_) are high-end mid-range tablet from Xiaomi.
 

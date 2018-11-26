@@ -1,5 +1,5 @@
 # 
-# Copyright (C) 2018 The Mokee Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from clover device
 $(call inherit-product, device/xiaomi/clover/device.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_tablet_wifionly.mk)
-$(call inherit-product, vendor/mk/config/telephony.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/rr/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/rr/config/telephony.mk)
 
-PRODUCT_NAME := mk_clover
+PRODUCT_NAME := rr_clover
 PRODUCT_BRAND := Xiaomi
 PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_DEVICE := clover
